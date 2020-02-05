@@ -1,0 +1,26 @@
+
+#content-area > * {
+	display: block;
+	position: relative;
+	margin:  20px auto;
+}
+
+textarea {
+	width: 90%;
+	max-width: 500px;
+	height: 200px;
+}
+
+.buttonDiv {
+	margin: auto;
+	display: flex !important;
+	justify-content: center;
+}
+
+#output p{
+	word-wrap: break-word;
+}
+
+.result {
+	font-weight: bold;
+}
