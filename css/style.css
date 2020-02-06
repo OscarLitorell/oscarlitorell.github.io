@@ -41,11 +41,11 @@ header {
     display: flex;
     position: relative;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 header img {
-    visibility: hidden;
+    display: none;
 }
 
 nav {
@@ -169,7 +169,7 @@ p a {
     header img {
         width: 30px;
         height: 30px;
-        visibility: visible;
+        display: block;
     }
 
     header img:hover {
