@@ -1,0 +1,45 @@
+extends /templates/layout
+
+block title
+    title Oscar Litorell's coding projects
+
+block content
+    section
+        h3 Coding projects
+        p Here you can find some of the things I have coded.
+    
+    section
+        a(href="https://oscarlitorell.github.io/complex-graphing/")
+            h3 Complex graphing calculator
+        hr.developer.filled
+        .separate
+            .img-container
+                img(src="/img/graph.jpg", alt="3D graph")
+            p.
+                This is a 3D graphing calculator that can handle complex numbers. The repository is available on #[a(href="https://github.com/OscarLitorell/complex-graphing") GitHub]. The calculator is available at #[a(href="https://oscarlitorell.github.io/complex-graphing/") https://oscarlitorell.github.io/complex-graphing/]. A manual can be found #[a(href="https://github.com/OscarLitorell/complex-graphing/blob/master/user-manual/english.md") here].
+
+    section
+        h3 Unity Island Generator
+        hr.developer.filled
+        .separate
+            .img-container
+                img(src='/img/island.jpg', alt='Procedurally generated island')
+            p.
+                This is a program written in C# with Unity that procedurally generates islands.
+    section
+        a(href='/developer/numbers-with-words')
+            h3 Writing numbers using words
+        hr.developer.filled
+        p.
+            This program can take in any number up to 10#[sup 3003] and write it out correctly using words. Did you know that the number 300,000,000,000,000,000,000,000,000,000,000,000 is pronounced &quot;three hundred decillion&quot;?
+        p.
+            You can try it out #[a(href='/developer/numbers-with-words') here].
+    section
+        a(href='/developer/ball-in-box')
+            h3 Simple browser physics
+        hr.developer.filled
+        .separate
+            .image-container
+                img(src='/img/ball-in-box.jpg', alt='A ball in a box', style='max-height: 300px;')
+            p.
+                This program is nothing more than a ball that you can chuck around inside a box. It was one of my earlier programs. You can try it out #[a(href='/developer/ball-in-box') here].

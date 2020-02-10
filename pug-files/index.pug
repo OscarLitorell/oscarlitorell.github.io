@@ -1,0 +1,45 @@
+extends /templates/layout
+
+block title
+    title Oscar Litorell
+
+block content
+    main.hero
+        .left
+            a(href="#developer")
+                h2 Developer
+            a(href="#maker")
+                h2 Maker
+            a(href="#3d-artist")
+                h2 3D Artist
+        hr.color.filled
+        .right
+            p My name is Oscar Litorell and I enjoy programming, web-development and pretty much anything that has anything to do with technology. I currently live and study in Sweden.
+
+    section#developer
+        h3 Developer
+        hr.developer.filled
+        .separate
+            .image-container
+                img(src="/img/graph.jpg", alt="3D graph")
+            p.
+                Programming is one of the things I enjoy doing the most. I mainly do programming in Python, C# .NET (with Unity) and JS (frontend as well as backend with Node and ExpressJS). You can find some of the things I've created on my #[a(href="https://github.com/OscarLitorell") GitHub page], or alternatively, you can check out a selection of my projects #[a(href="/developer") here].
+    
+    section#maker
+        h3 Maker
+        hr.maker.filled
+        .separate
+            p.
+                Building and tinkering with things is another passion of mine - be it 3D-printing, soldering circuits, programming Raspberry Pis and Arduinos, or building RC planes. You can check out a selection of my projects #[a(href="/maker") here].
+            .image-container
+                img(src="/img/throttle.jpg", alt="Throttle explosion drawing")
+
+    section#3d-artist
+        h3 3D Artist
+        hr.artist.filled
+        .separate
+            .image-container
+                img(src="/img/watch.jpg", alt="Watch rendered in blender")
+            p.
+                I also do some designing and modelling in 3D software such as blender. You can check out a selection of my projects #[a(href="/3d-artist") here].
+

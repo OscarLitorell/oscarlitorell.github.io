@@ -1,0 +1,14 @@
+extends /templates/layout
+
+block title
+    title Ball in a box
+
+block content
+    section
+    h3 Ball in a box
+    hr.developer.filled
+    p Click in the box to see what happens
+    script(src='script.js')
+    #playArea
+        img#ball(src='ball.png', onload='init()')
+        #touchScreen(onmousedown='jump(event)', ontouchdown='jump(event)')

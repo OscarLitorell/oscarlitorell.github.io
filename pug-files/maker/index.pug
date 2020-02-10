@@ -1,0 +1,38 @@
+extends /templates/layout
+
+block title
+    title Oscar Litorell's maker projects
+
+block content
+    section
+        h3 Maker projects
+        p Here you can find some of the things I have made.
+    
+    section
+        h3 Throttle lever
+        hr.maker.filled
+        .separate
+            .img-container
+                img(src="/img/throttle.jpg", alt="Throttle in blender")
+            p.
+                This is a throttle lever specifically designed for Elite Dangerous, but can be used in other flight simulators as well. It is modeled in blender around the Leo Bodnar #[a(href="https://www.leobodnar.com/shop/index.php?main_page=product_info&products_id=204") BU0836A] board, and features one major thrust axis, 8 pushbuttons, one small thumbstick with a built-in pushbutton, and 2 rotary encoders. It is 3D-printed in PETG (polyethylene).
+            .img-container
+                img(src="img/throttle-front.jpg", alt="Front view of finished throttle")
+            .img-container
+                img(src="img/throttle-back.jpg", alt="Back view of finished throttle")
+            .img-container
+                img(src="img/throttle-inside.jpg", alt="Inside view of throttle")
+    
+    section
+        h3 Mini submarine
+        hr.maker.filled
+        .separate
+            .image-container
+                img(src="img/submarine.jpg", alt="submarine parts")
+            p.
+                This is a project that I have started working on. My goal is to build a working submarine, where the pitch is controlled by shifting weights inside the sub. You can see ethe pipe pieces that I am going use to build it, along with the laser-cut piece of acrylic glass that will be used for the window. The plan is that it's going to be controlled with a tether (an ethernet cable), which hopefully means that it will be possible to transmit video as well.
+            .img-container
+                img(src="img/submarine-electronics.jpg", alt="submarine electronics schematics")
+            p.
+                The electronics used in the project. The Raspberry Pi B+ is going to be the main controller. Made in Fritzing.
+

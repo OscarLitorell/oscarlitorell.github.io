@@ -1,0 +1,19 @@
+extends /templates/layout
+
+block title
+    title Writing number with words
+
+block content
+    section
+        h3 Writing numbers using words
+        hr.developer.filled
+        p.
+            This program writes out any number between -10#[sup 3,003] and 10#[sup 3,003] with words.
+        p.
+            You can choose to use the short scale (where 10#[sup 9] is 1 billion) or the long scale (where 10#[sup 9] is 1 milliard). You can read more about the differences between the long and short scale #[a.inP(href='https://en.wikipedia.org/wiki/Long_and_short_scales') here]. If you choose to use the long scale the limit goes up to 10#[sup 6,000] instead. It's also possible to use numbers with decimals.
+        textarea#textBox
+        .buttonDiv
+            button#convertShort Convert to short scale
+            button#convertLong Convert to long scale
+        #output
+        script(src='script.js')

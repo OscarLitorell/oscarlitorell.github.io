@@ -1,0 +1,29 @@
+extends /templates/layout
+
+block title
+    title Oscar Litorell's 3D art
+
+block content
+    section
+        h3 3D art
+        p Here you can find some of the 3D art I have created.
+    
+    section
+        h3 Watch
+        hr.artist.filled
+        .separate
+            .image-container
+                img(src="/img/watch.jpg", alt="Watch rendered in blender")
+            p.
+                This is a watch based on the Breitling Navitimer that I made and rendered in blender. You can get the full-res 4K render #[a(href="/img/watch.png") here].
+    section
+        h3 Gothenburg Landvetter Airport
+        hr.artist.filled
+        .separate
+            .image-container
+                img(src="/img/landvetter-color.png", alt="Landvetter terminal")
+            p.
+                This is a rendition of the terminal building of Gothenburg Landvetter Airport for   the X-Plane 11 flight simulator. It is modelled in SketchUp and textured and  rendered in blender.
+
+            .image-container
+                img(src="/img/landvetter.png", alt="Landvetter terminal")
